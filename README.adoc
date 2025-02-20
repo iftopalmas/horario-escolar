@@ -1,0 +1,71 @@
+:icons: font
+:allow-uri-read:
+//caminho padrão para imagens
+:imagesdir: images
+:numbered:
+:figure-caption: Figura
+:doctype: book
+
+//gera apresentacao
+//pode se baixar os arquivos e add no diretório
+:revealjsdir: https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0
+
+//Estilo do Sumário
+:toc2: 
+//após os : insere o texto que deseja ser visível
+:toc-title: Sumário
+:figure-caption: Figura
+//numerar titulos
+:numbered:
+:source-highlighter: highlightjs
+:icons: font
+:chapter-label:
+:doctype: book
+:lang: pt-BR
+//3+| mesclar linha tabela
+
+ifdef::env-github[:outfilesuffix: .adoc]
+
+ifdef::env-github,env-browser[]
+// Exibe ícones para os blocos como NOTE e IMPORTANT no GitHub
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+= Horário Escolar Campus Palmas do IFTO
+
+== Tutorial de Acesso e Navegação na Página de Horários (EduPage)
+
+A plataforma EduPage permite visualizar os horários acadêmicos do Campus Palmas IFTO de maneira rápida e organizada. Este tutorial fornecerá instruções para acessar e navegar pela página de horários.
+
+=== Acessando a Página de Horários
+
+Abra um navegador de internet de sua preferência, como Google Chrome, Mozilla Firefox ou Microsoft Edge.
+
+NOTE: Em seguida, acesse o endereço web: https://ifto.edupage.org
+
+=== Página Inicial
+
+Na tela inicial, clique no ícone "Mostrar" para visualizar os horários disponíveis de forma detalhada, como ilustrado na Figura 1.
+
+.Página inicial
+image::image1.jpeg[width=400,height=300]
+
+=== Alternando entre horários
+
+O campus pode ter diferentes horários publicados.
+
+Para alternar entre eles, clique na opção **HORÁRIO REGULAR** e selecione o horário desejado. Veja a Figura 2 abaixo.
+
+.Selecionando a turma
+image::image2.jpeg[width=400,height=300]
+
+=== Navegando pelo Horário
+
+Para encontrar o horário de uma turma específica, utilize a opção de filtro por turma. Isso facilita a busca e torna a navegação mais ágil. Veja a Figura 3.
+
+.Selecionando a turma
+image::image3.jpeg[width=400,height=300]
